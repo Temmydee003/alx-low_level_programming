@@ -4,7 +4,7 @@
 
 /**
  * main - entry point
- * return: always 0 (success)
+ * return: always 0 (Success)
  */
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 
 	while (a < 10)
 	{
-		putchar(a);
+		putchar("%d", a);
 	}
 	putchar('\n');
 	return (0);
