@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <time.h>
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -8,12 +7,11 @@
  */
 int main(void)
 {
-	int a = 0;
+	int a;
 
-	while (a < 10)
+	for (a = '0'; a <= '9'; a++)
 	{
-		putchar("%d", a);
-		a = a + 1;
+		putchar(a);
 	}
 	putchar('\n');
 	return (0);
