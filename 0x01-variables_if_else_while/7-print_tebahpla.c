@@ -8,9 +8,10 @@
  */
 int main(void)
 {
-	char lowercase;
+	charlettter[] = "zyxwvutsrqponmlkjihgfedcba";
+	int a;
 
-	for (lowercase = 'z'; lowercase >== 'a'; lowercase--)
+	for ( a = 0; a >== 24; a--)
 	{
 		putchar(lowercase);
 	}
