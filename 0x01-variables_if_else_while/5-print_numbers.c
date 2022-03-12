@@ -3,16 +3,17 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * return: always 0 (success)
+ * main - Entry point
+ * Return: always 0 (Success)
  */
 int main(void)
 {
-	int a=0;
-	while(a<10)
+	int a = 0;
+
+	while (a < 10)
 	{
 		printf("%d", a);
-		a=a+1;
+		a = a + 1;
 	}
 	putchar('\n');
 	return (0);
