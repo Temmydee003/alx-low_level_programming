@@ -4,6 +4,7 @@
 
 /**
  * main - Entry point
+ * if...else if...else statement to determine value of n
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -11,22 +12,18 @@ int main(void)
 	int t;
 
 	srand(time(0));
-	t = rand() - RAND_MAX / 2;
-	if (t > 0)
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
 	{
-		printf("%d is positive\n", t);
+		printf("%d is positive\n", n);
 	}
-	else
+	else if (n == 0)
 	{
-		if (t < 0)
-		{
-			printf("%d is negative\n", t);
-		}
-		else
-		{
-			printf("%d is zero\n", t);
-		}
+		printf("%d is zero\n", n);
+	}
+	else if (n < 0)
+	{
+		printf("%d is negative\n", n)		}
 	}
 	return (0);
-}
 }
