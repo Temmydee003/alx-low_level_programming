@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
@@ -7,11 +8,11 @@
  */
 int main(void)
 {
-	char i;
+	char lowercase;
 
-	for (i = 'z'; i >== 'a'; i--)
+	for (lowercase = 'z'; lowercase >== 'a'; lowercase--)
 	{
-		putchar(i);
+		putchar(lowercase);
 	}
 	putchar('\n');
 	return (0);
