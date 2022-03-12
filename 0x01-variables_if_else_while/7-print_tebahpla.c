@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <time.h>
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -8,12 +7,11 @@
  */
 int main(void)
 {
-	char letter[] = "zyxwvutsrqponmlkjihgfedcba";
-	int i;
+	char i;
 
-	for (i = 0; i <= 24; i++)
+	for (i = 'z'; i >== 'a'; i--)
 	{
-		putchar(letter[i]);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
