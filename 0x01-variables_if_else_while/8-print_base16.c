@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * main - entry point
- * return: Always 0 (Success)
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -16,7 +15,7 @@ int main(void)
 	}
 	for (i = 'a'; i <= 'f'; i++)
 	{
-		purchar(i);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
