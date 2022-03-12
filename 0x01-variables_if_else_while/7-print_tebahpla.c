@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-	charlettter[] = "zyxwvutsrqponmlkjihgfedcba";
+	char lettter[] = "zyxwvutsrqponmlkjihgfedcba";
 	int a;
 
 	for ( a = 0; a >== 24; a--)
 	{
-		putchar(lowercase);
+		putchar(a);
 	}
 	putchar('\n');
 	return (0);
