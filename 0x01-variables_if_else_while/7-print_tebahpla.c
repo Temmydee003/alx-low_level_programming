@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	char lettter[] = "zyxwvutsrqponmlkjihgfedcba";
+	char 'b' = "zyxwvutsrqponmlkjihgfedcba";
 	int a;
 
-	for ( a = 0; a >== 24; a--)
+	for ( a = 0; a >= 24; a--)
 	{
-		putchar(letter(a));
+		putchar(b(a));
 	}
 	putchar('\n');
 	return (0);
