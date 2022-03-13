@@ -2,17 +2,18 @@
 
 /**
  * main- Entry point
- *
- *Return: always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int=i;
-	double=d;
-	char=c;
+	int myInt;
+	double mydouble;
+	float myfloat;
+	char mychar;
 
-	printf("The size of an int is: %lu.\n", (unsigned long)sizeof(i));
-	printf("The size of an double is: %lu.\n", (unsigned long)sizeof(d));
-	printf("The size of an c is: %lu.\n", (unsigned long)sizeof(c));
+	printf("The size of an int is: %lu.\n", sizeof(myInt));
+	printf("The size of an double is: %lu.\n", sizeof(mydouble));
+	printf("The size of a float is: %lu.\n", sizeof(myfloat));
+	printf("The size of a char is: %lu.\n", sizeof(mychar));
 	return(0);
 }
