@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-	char b = zyxwvutsrqponmlkjihgfedcba;
-	putchar(b);
+	char b = 'zyxwvutsrqponmlkjihgfedcba';
+	putchar"%c\n", b);
 	putchar('\n');
 	return (0);
 }
