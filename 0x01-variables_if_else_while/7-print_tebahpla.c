@@ -7,13 +7,8 @@
  */
 int main(void)
 {
-	char 'b' = "zyxwvutsrqponmlkjihgfedcba";
-	int a;
-
-	for ( a = 0; a >= 24; a--)
-	{
-		putchar(b(a));
-	}
+	char b = "zyxwvutsrqponmlkjihgfedcba";
+	putchar(a);
 	putchar('\n');
 	return (0);
 }
