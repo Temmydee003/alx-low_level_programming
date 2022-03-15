@@ -1,18 +1,20 @@
-#include "stdio.h"
+#include <stdio.h>
+#include <time.h>
+#include <stdio.h>
 
 /**
- * main - check the code
+ * main - Entry point
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	char * e;
+	char lowercase;
 
-	for (e = 'a'; e <= 'z'; e++)
+	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 	{
-		putchar(char * e);
+		putchar(lowercase);
 	}
-		putchar(char * "\n");
+	putchar('\n');
 	return 0;
 }
