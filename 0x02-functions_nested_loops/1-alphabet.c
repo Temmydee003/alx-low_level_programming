@@ -6,9 +6,9 @@
  *
  * Description: print lowercase alphabet from a - z
  * using a fpr loop
- * Return: Always 0.
+ * Return: Always 1.
  */
-void print_alphabet(void)
+print_alphabet(void)
 {
 	char lowercase;
 
@@ -17,5 +17,5 @@ void print_alphabet(void)
 		putchar(lowercase);
 	}
 	putchar('\n');
-	return 0;
+	return 1;
 }
