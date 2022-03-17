@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * main - check the code for Holberton School students.
  *
- * Description: print string "_putchar"
- * using a while loop over the array
  * Return: Always 0.
  */
 int main(void)
