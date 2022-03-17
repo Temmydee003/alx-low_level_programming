@@ -1,20 +1,21 @@
 #include "main.h"
 
 /**
- * main - check the code for Holberton School students.
+ * main - prints _putchar
  *
- * Return: Always 0.
+ * Return: 0 (Success)
  */
 int main(void)
 {
-	int c;
-	char cstring[10] = "_putchar\n";
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putcahr('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-
-	while (c < 10)
-	{
-		_putchar(cstring[c]);
-		c++;
-	}
 	return 0;
 }
