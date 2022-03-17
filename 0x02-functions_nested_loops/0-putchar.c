@@ -3,6 +3,8 @@
 /**
  * main - check the code
  *
+ * Description: print string "_putchar"
+ * using a while loop over the array
  * Return: Always 0.
  */
 int main(void)
