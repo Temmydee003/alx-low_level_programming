@@ -2,13 +2,16 @@
 
 /**
  * print_alphabet - print the alphabet in lowercase
+ *
+ * Description: print lowercase alphabet from a - z
+ * using a for loop.
+ * Retur: always 1.
  */
 void print_alphabet(void)
 {
-	char b;
+	int b;
 
-	b = 97;
-	while (b <= 122)
+	for (b = 'a'; b <= 'z'; b++)
 	{
 		_putchar(b);
 		b++;
