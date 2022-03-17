@@ -6,13 +6,15 @@
  * Return: Always 0.
  */
 int main(void)
-int e = 5
 {
-	if (e > 10)
+	int c;
+	char cstring[10] = "_putchar\n";
+
+
+	while (c < 10)
 	{
-		printf("man\n");
+		_putchar(cstring[c]);
+		c++;
 	}
-	else
-		printf("_putchar\n");
 	return 0;
 }
